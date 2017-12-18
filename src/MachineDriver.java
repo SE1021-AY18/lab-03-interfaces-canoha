@@ -12,6 +12,8 @@ import java.util.Scanner;
  *
  * This example describes the materials needed to build a cube by bolting
  * together six pieces of sheet metal.
+ * @author Harim Cano
+ * @version 1
  */
 public class MachineDriver {
     /**
