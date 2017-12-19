@@ -3,7 +3,7 @@
  * Winter 2017-2018
  * Author: Harim Cano
  * Lab 3 - Interfaces
- * Created: 12/7/2016
+ * Created: 12/7/2017
  */
 
 import java.text.DecimalFormat;
@@ -41,19 +41,6 @@ public class Assembly implements Part {
     }
 
     /**
-     * Gets the cost of the assembly in total with all parts included
-     * @return the total cost of the assembly
-     */
-    @Override
-    public double getCost(){
-        double totalCost = 0.0;
-        for (int i=0; i<subParts.size();i++){
-            totalCost += subParts.get(i).getCost() + USD_PER_SUB_PART;
-        }
-        return totalCost;
-    }
-
-    /**
      * Returns the name of the assembly
      * @return the name of assembly
      */
@@ -73,6 +60,19 @@ public class Assembly implements Part {
             totalWeight += subParts.get(i).getWeight();
         }
         return totalWeight;
+    }
+
+    /**
+     * Gets the cost of the assembly in total with all parts included
+     * @return the total cost of the assembly
+     */
+    @Override
+    public double getCost(){
+        double totalCost = 0.0;
+        for (int i=0; i<subParts.size();i++){
+            totalCost += subParts.get(i).getCost() + USD_PER_SUB_PART;
+        }
+        return totalCost;
     }
 
     /**

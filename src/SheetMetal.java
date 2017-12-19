@@ -3,7 +3,7 @@
  * Winter 2017-2018
  * Author: Harim Cano
  * Lab 3 - Interfaces
- * Created: 12/7/2016
+ * Created: 12/7/2017
  */
 
 /**
@@ -12,17 +12,26 @@
  * @version 1
  */
 public class SheetMetal implements Part {
-
-    public static final double LBS_MULTIPLIER = 0.1;
     private double lengthInches;
     private double thicknessInches;
-    public static final double USD_MULTIPLIER = 0.50;
     private double widthInches;
+    /**
+     *
+     */
+    public static final double LBS_MULTIPLIER = 0.1;
+    /**
+     *
+     */
+    public static final double USD_MULTIPLIER = 0.50;
 
-
-    @Override
-    public double getCost() {
-        return 0;
+    /**
+     *
+     * @param lengthInches
+     * @param widthInches
+     * @param thicknessInches
+     */
+    public SheetMetal(double lengthInches, double widthInches, double thicknessInches){
+        //TODO
     }
 
     @Override
@@ -40,8 +49,10 @@ public class SheetMetal implements Part {
 
     }
 
-    public SheetMetal(double lengthInches, double widthInches, double thicknessInches){
-        //TODO
+    @Override
+    public double getCost() {
+        return 0;
     }
+
 }
 

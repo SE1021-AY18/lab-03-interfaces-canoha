@@ -3,7 +3,7 @@
  * Winter 2017-2018
  * Author: Harim Cano
  * Lab 3 - Interfaces
- * Created: 12/7/2016
+ * Created: 12/7/2017
  */
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * This example describes the materials needed to build a cube by bolting
  * together six pieces of sheet metal.
- * @author Harim Cano
+ * @author revised by Harim Cano
  * @version 1
  */
 public class MachineDriver {
