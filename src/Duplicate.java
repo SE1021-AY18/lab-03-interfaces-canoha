@@ -8,7 +8,7 @@
 import java.text.DecimalFormat;
 
 /**
- * This class allows for a specific part to be used but with multiple copies
+ * This class implements part and it allows for a specific part to be used but with multiple copies
  * @author Harim Cano
  * @version 1
  */

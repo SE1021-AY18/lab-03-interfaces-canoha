@@ -5,7 +5,6 @@
  * Lab 3 - Interfaces
  * Created: 12/7/2017
  */
-
 import java.text.DecimalFormat;
 
 /**

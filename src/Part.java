@@ -7,14 +7,32 @@
  */
 
 /**
- * interface
+ * This class is an interface implemented by multiple classes.
  * @author Harim Cano
  * @version 1
  */
 public interface Part {
-    public String getName();
-    public double getWeight();
-    public double getCost();
-    public void printBillOfMaterials();
+    /**
+     * This method will return the name of the specific object
+     * @return the name of object
+     */
+    String getName();
+
+    /**
+     * This method will return the weight of the specific object
+     * @return the weight of object
+     */
+    double getWeight();
+
+    /**
+     * This method will return the cost of a specific object
+     * @return the cost of object
+     */
+    double getCost();
+
+    /**
+     * Prints out bill of materials for specific object
+     */
+    void printBillOfMaterials();
 
 }

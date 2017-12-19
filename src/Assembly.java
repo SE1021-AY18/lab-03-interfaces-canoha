@@ -5,12 +5,11 @@
  * Lab 3 - Interfaces
  * Created: 12/7/2017
  */
-
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 /**
- * This class deals with the assembly of parts
+ * This class implements part and it deals with the assembly of parts
  * @author Harim Cano
  * @version 1
  */

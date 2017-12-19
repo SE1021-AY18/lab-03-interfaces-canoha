@@ -41,9 +41,7 @@ public class Bolt implements Part {
      */
     @Override
     public String getName() {
-        String name = "bolt";
-        String measurementSeparator = "x";
-        return diameterInches+ measurementSeparator+ lengthInches+ name;
+        return diameterInches+ "x"+ lengthInches+ " bolt";
     }
 
     /**
