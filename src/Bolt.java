@@ -76,7 +76,5 @@ public class Bolt implements Part {
         System.out.println("Length: "+ lengthInches+ "inches");
         System.out.println("Cost: $"+ costFormat.format(getCost()));
         System.out.println("Weight: "+ weightFormat.format(getWeight())+ " lbs");
-        System.out.println();
-
     }
 }

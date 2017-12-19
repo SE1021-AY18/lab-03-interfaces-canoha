@@ -93,7 +93,7 @@ public class Duplicate implements Part {
         System.out.println("Duplicate part: "+ identicalPart.getName());
         System.out.println("Copies: "+ numDuplicates);
         System.out.println("Individual cost: $"+ costFormat.format(identicalPart.getCost()));
-        System.out.println("Individual Weight: "+ weightFormat.format(identicalPart.getWeight()));
+        System.out.println("Individual Weight: "+ weightFormat.format(identicalPart.getWeight())+ " lbs");
         System.out.println("\nTotal cost: $"+ costFormat.format(getCost()));
         System.out.println("Total weight: "+ weightFormat.format(getWeight())+ " lbs");
         System.out.println();

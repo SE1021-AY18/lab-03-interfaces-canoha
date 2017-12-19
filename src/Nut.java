@@ -72,7 +72,6 @@ public class Nut implements Part {
         System.out.println("Diameter: "+ diameterInches+ " inches");
         System.out.println("Cost: $"+ costFormat.format(getCost()));
         System.out.println("Weight: "+ weightFormat.format(getWeight())+ " lbs");
-        System.out.println();
     }
 
 }

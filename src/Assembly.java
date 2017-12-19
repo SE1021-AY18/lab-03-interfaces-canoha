@@ -86,7 +86,7 @@ public class Assembly implements Part {
 
         for (int i=0; i<subParts.size();i++){
             System.out.println("Part: "+ subParts.get(i).getName());
-            System.out.println("Cost: "+ costFormat.format(subParts.get(i).getCost()));
+            System.out.println("Cost: $"+ costFormat.format(subParts.get(i).getCost()));
             System.out.println("Weight: "+ weightFormat.format(subParts.get(i).getWeight())+" lbs");
         }
         System.out.println("Total cost: $"+ costFormat.format(getCost()));
